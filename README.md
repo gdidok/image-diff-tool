@@ -12,6 +12,6 @@
 A CSV file with two columns 'image1' and 'image2' where each row represent absolute paths to both images.
 
 ## Usage:
-When in virtual enviroment *(see above)* run: `python imagediff.py "path_to_csv.csv"`. This will generate a new CSV with two additional columns: 'similar' - similarity score, and 'elapsed' - time take by comparison.
+When in virtual enviroment *(see above)* run: `python imagediff.py "path_to_file.csv"`. This will generate a new CSV with two additional columns: 'similar' - similarity score, and 'elapsed' - time take by comparison.
 
-For example, run: `python imagediff.py ./demo/images.csv` to try it out with the demo provided in the repository.
+For example, run: `python ./src/imagediff.py ./demo/images.csv` to try it out with the demo provided in the repository.

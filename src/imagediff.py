@@ -36,7 +36,9 @@ def compareImages(imgPath1, imgPath2):
     return rounded
 
 # Read provided CSV and generate new CSV with scored images
-def main(csvFilePath):
+def main():
+    # Get CSV file path from second arg of CLI
+    csvFilePath = sys.argv[1]
     result = []
     # Define columns for result table
     resultCols = ['image1', 'image2', 'similar', 'elapsed']
@@ -65,7 +67,5 @@ def main(csvFilePath):
         for data in result:
             writer.writerow(data)
 
-# Get CSV file path from second arg of CLI
-filePath = sys.argv[1]
-# Main method
-main(filePath)
+if __name__ == '__main__':
+    main()
