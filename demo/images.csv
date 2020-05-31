@@ -1,0 +1,5 @@
+image1,image2
+./demo/images/aa.jpg,./demo/images/ab.jpg
+./demo/images/aa.jpg,./demo/images/ac.png
+./demo/images/aa.jpg,./demo/images/ad.jpg
+./demo/images/ab.jpg,./demo/images/ba.png
